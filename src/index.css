@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.recipient-block{
+    margin-left:50vw;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.stamp{
+    margin-left: 90vw;
+}
+
+.credit-card{
+    border: solid;
+    height: 200px;
+    width: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bank-name{
+    font-size: xx-large;
+    text-align: right;
+}
+.card-number{
+    padding-top:10%;
+    font-size:larger;
+}
+.expiration-date{
+    margin-left:50px;
+}
+
+.cardholder{
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+.email-line{
+    border:solid;
+}
+.top-line{
+    display:flex;
+    justify-content: space-between;
 }
